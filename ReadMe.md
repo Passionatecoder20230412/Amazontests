@@ -1,0 +1,2 @@
+Default scope is function for every start of function browser opens and and once the function over the browser closed
+if scope is class the browser opens intially at start of class then closes after end that class

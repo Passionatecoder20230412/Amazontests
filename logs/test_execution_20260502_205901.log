@@ -1,0 +1,61 @@
+2026-05-02 20:59:17,211 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Fresh==>1
+2026-05-02 20:59:20,388 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 20:59:20,589 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 20:59:22,335 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Fresh==>1
+2026-05-02 20:59:22,480 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon MX Player==>2
+2026-05-02 20:59:25,467 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 20:59:25,495 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 20:59:26,731 - pages.HomeIconsNavigationStatus - INFO - navigation successful for MX Player==>2
+2026-05-02 20:59:27,013 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Sell==>3
+2026-05-02 20:59:31,317 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 20:59:32,040 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 20:59:33,665 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Sell==>3
+2026-05-02 20:59:33,924 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Bestsellers==>4
+2026-05-02 20:59:35,904 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 20:59:36,007 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 20:59:37,370 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Bestsellers==>4
+2026-05-02 20:59:37,443 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Mobiles==>5
+2026-05-02 20:59:42,121 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 20:59:42,199 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 20:59:43,375 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Mobiles==>5
+2026-05-02 20:59:43,861 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Today's Deals==>6
+2026-05-02 20:59:45,572 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 20:59:46,364 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 20:59:47,972 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Today's Deals==>6
+2026-05-02 20:59:48,073 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Customer Service==>7
+2026-05-02 20:59:49,604 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 20:59:49,700 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 20:59:51,004 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Customer Service==>7
+2026-05-02 20:59:51,076 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon New Releases==>8
+2026-05-02 20:59:52,734 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 20:59:52,900 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 21:00:16,151 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Fresh==>1
+2026-05-02 21:00:19,519 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 21:00:20,798 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 21:00:23,361 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Fresh==>1
+2026-05-02 21:00:23,626 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon MX Player==>2
+2026-05-02 21:00:27,867 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 21:00:27,919 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 21:00:38,448 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Fresh==>1
+2026-05-02 21:00:41,184 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 21:00:41,283 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 21:00:42,933 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Fresh==>1
+2026-05-02 21:00:42,988 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon MX Player==>2
+2026-05-02 21:00:46,889 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 21:00:47,361 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 21:00:49,020 - pages.HomeIconsNavigationStatus - INFO - navigation successful for MX Player==>2
+2026-05-02 21:00:49,119 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Sell==>3
+2026-05-02 21:00:53,620 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 21:00:54,570 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 21:00:56,030 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Sell==>3
+2026-05-02 21:00:56,292 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Bestsellers==>4
+2026-05-02 21:00:58,103 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 21:00:58,305 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 21:00:59,746 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Bestsellers==>4
+2026-05-02 21:01:00,025 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Mobiles==>5
+2026-05-02 21:01:04,991 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 21:01:05,146 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-02 21:01:06,360 - pages.HomeIconsNavigationStatus - INFO - navigation successful for Mobiles==>5
+2026-05-02 21:01:06,617 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon Today's Deals==>6
+2026-05-02 21:01:09,996 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-02 21:01:10,213 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
