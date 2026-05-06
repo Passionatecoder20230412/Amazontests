@@ -1,8 +1,8 @@
 import pytest
 from selenium import webdriver
 
-# CURRENT_URL = "https://www.amazon.in/"
-CURRENT_URL="https://automationexercise.com/"
+CURRENT_URL = "https://www.amazon.in/"
+# CURRENT_URL="https://automationexercise.com/"
 
 @pytest.fixture(scope="function")  # default scope anyway
 def init_driver():
