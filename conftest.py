@@ -1,21 +1,31 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.edge.options import Options
 
 CURRENT_URL = "https://www.amazon.in/"
-# CURRENT_URL="https://automationexercise.com/"
 
-@pytest.fixture(scope="function")  # default scope anyway
+@pytest.fixture(scope="function")
 def init_driver():
-    driver = webdriver.Edge()
+
+    options = Options()
+
+    # ✅ REQUIRED FOR JENKINS / CI
+    options.add_argument("--headless=new")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
+
+    driver = webdriver.Edge(options=options)
+
     driver.maximize_window()
-    driver.implicitly_wait(300)
+    driver.implicitly_wait(10)   # ❌ 300 seconds is too high (bad practice)
     driver.get(CURRENT_URL)
 
     yield driver
 
     print("closing browser")
     driver.quit()
-
 # import pytest
 # from playwright.sync_api import sync_playwright
 #
