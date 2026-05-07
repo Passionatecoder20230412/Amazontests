@@ -1,24 +1,9 @@
-# conftest.py
-
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 
-
-from selenium.webdriver.chrome.options import Options as ChromeOptions
-from selenium.webdriver.edge.options import Options as EdgeOptions
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
-
-
 def pytest_addoption(parser):
-
-    parser.addoption(
-        "--browser",
-        action="store",
-        default="chrome",
-        help="Browser name: chrome / edge / firefox"
-    )
 
     parser.addoption(
         "--url",
@@ -30,90 +15,34 @@ def pytest_addoption(parser):
     parser.addoption(
         "--headless",
         action="store_true",
-        help="Run tests in headless mode"
+        help="Run in headless mode"
     )
 
 
 @pytest.fixture(scope="function")
 def init_driver(request):
 
-    browser = request.config.getoption("--browser").lower()
     url = request.config.getoption("--url")
     headless = request.config.getoption("--headless")
 
-    driver = None
-
-    # ---------- CHROME ---------- #
-
-    if browser == "chrome":
-
-        options = ChromeOptions()
-
-        if headless:
-            options.add_argument("--headless=new")
-
-        options.add_argument("--start-maximized")
-
-        driver = webdriver.Chrome(options=options)
-
-    # ---------- EDGE ---------- #
-
-    elif browser == "edge":
-
-        options = EdgeOptions()
-
-        if headless:
-            options.add_argument("--headless=new")
-
-        options.add_argument("--start-maximized")
-
-        driver = webdriver.Edge(options=options)
-
-    # ---------- FIREFOX ---------- #
-
-    elif browser == "firefox":
-
-        options = FirefoxOptions()
-
-        if headless:
-            options.add_argument("--headless")
-
-        driver = webdriver.Firefox(options=options)
-        driver.maximize_window()
-
-    else:
-        raise Exception(f"Unsupported browser: {browser}")
-
-    # Common setup
-    driver.implicitly_wait(10)
-    driver.get(url)
-
-    yield driver
-
-    print("Closing browser...")
-
-CURRENT_URL = "https://www.amazon.in/"
-
-@pytest.fixture(scope="function")
-def init_driver():
-
     options = Options()
 
-    # 🔥 required for Jenkins / headless execution
-    options.add_argument("--headless=new")
+    # headless only if passed
+    if headless:
+        options.add_argument("--headless=new")
+
+    options.add_argument("--start-maximized")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1920,1080")
 
-    # Selenium 4 way (NO webdriver-manager)
     driver = webdriver.Chrome(options=options)
 
-    driver.implicitly_wait(10)
-    driver.get(CURRENT_URL)
+    # driver.implicitly_wait(10)
+    driver.get(url)
 
     yield driver
-
 
     driver.quit()
 # import pytest

@@ -21,7 +21,7 @@ class BasePage:
 
         self.wait = WebDriverWait(
             driver,
-            10,
+            3,
             poll_frequency=1,
             ignored_exceptions=[
                 NoSuchElementException,

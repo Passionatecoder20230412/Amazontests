@@ -1,0 +1,56 @@
+2026-05-07 15:33:33,524 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>16
+2026-05-07 15:34:04,288 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:34:04,337 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:34:04,377 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>16
+2026-05-07 15:34:36,468 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>15
+2026-05-07 15:35:08,580 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:35:08,586 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:35:08,620 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>15
+2026-05-07 15:35:40,736 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>14
+2026-05-07 15:36:12,779 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:36:12,783 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:36:12,822 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>14
+2026-05-07 15:36:44,919 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>13
+2026-05-07 15:37:17,009 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:37:17,011 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:37:17,037 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>13
+2026-05-07 15:37:49,121 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>12
+2026-05-07 15:38:21,270 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:38:21,274 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:38:21,299 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>12
+2026-05-07 15:38:53,419 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>11
+2026-05-07 15:39:25,478 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:39:25,481 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:39:25,518 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>11
+2026-05-07 15:39:57,609 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>10
+2026-05-07 15:40:29,663 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:40:29,668 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:40:29,701 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>10
+2026-05-07 15:41:01,837 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>9
+2026-05-07 15:41:33,927 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:41:33,931 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:41:33,955 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>9
+2026-05-07 15:42:06,094 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>8
+2026-05-07 15:42:38,216 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:42:38,219 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:42:38,243 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>8
+2026-05-07 15:43:10,346 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>7
+2026-05-07 15:43:42,724 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:43:42,727 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:43:42,774 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>7
+2026-05-07 15:44:14,949 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>6
+2026-05-07 15:44:47,057 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:44:47,061 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:44:47,137 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>6
+2026-05-07 15:45:19,229 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>5
+2026-05-07 15:45:51,322 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:45:51,328 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:45:51,375 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>5
+2026-05-07 15:46:23,510 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>4
+2026-05-07 15:46:55,660 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:46:55,665 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:46:55,697 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>4
+2026-05-07 15:47:27,826 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates to icon ==>3
+2026-05-07 15:47:59,901 - pages.HomeIconsNavigationStatus - INFO - currently the driver navigates back
+2026-05-07 15:47:59,905 - pages.HomeIconsNavigationStatus - INFO - currently the driver is refreshing
+2026-05-07 15:47:59,949 - pages.HomeIconsNavigationStatus - INFO - navigation successful for ==>3

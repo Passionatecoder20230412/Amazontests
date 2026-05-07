@@ -16,10 +16,10 @@ class HomePage(BasePage):
         return self.get_text(self.HOMEPAGE)
 
     def signup_click(self):
-        self.click_element(self.SIGNUP)
+        self.click_button(self.SIGNUP)
     def enter_username(self,username):
         self.enter_text(self.USER_NAME,username)
     def enter_pwd(self,pwd):
         self.enter_text(self.PASSWORD,pwd)
     def login_click(self):
-        self.click_element(self.LOGIN_BTN)
+        self.click_button(self.LOGIN_BTN)

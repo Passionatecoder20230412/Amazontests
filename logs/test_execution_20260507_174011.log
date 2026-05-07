@@ -1,0 +1,14 @@
+2026-05-07 17:40:11,469 - RegisterWithExistingMail - INFO - Opening URL
+2026-05-07 17:40:11,522 - RegisterWithExistingMail - INFO - Hover on Sign In
+2026-05-07 17:40:14,750 - RegisterWithExistingMail - INFO - Click Register
+2026-05-07 17:40:16,204 - RegisterWithExistingMail - INFO - Entering email: 7207962483
+2026-05-07 17:40:16,325 - RegisterWithExistingMail - INFO - Click Continue
+2026-05-07 17:40:49,660 - RegisterWithExistingMail - INFO - Existing user detected: Sign in
+2026-05-07 17:40:49,660 - tests.test_user_existing_status - INFO - Happy ending
+2026-05-07 17:40:56,263 - RegisterWithExistingMail - INFO - Opening URL
+2026-05-07 17:40:56,331 - RegisterWithExistingMail - INFO - Hover on Sign In
+2026-05-07 17:40:59,553 - RegisterWithExistingMail - INFO - Click Register
+2026-05-07 17:41:00,656 - RegisterWithExistingMail - INFO - Entering email: anegondi20004000@gmail.com
+2026-05-07 17:41:00,823 - RegisterWithExistingMail - INFO - Click Continue
+2026-05-07 17:41:02,445 - RegisterWithExistingMail - INFO - New user detected: It looks like you are new to Amazon
+2026-05-07 17:41:02,445 - tests.test_user_existing_status - INFO - Happy ending

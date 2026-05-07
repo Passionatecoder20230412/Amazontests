@@ -1,0 +1,30 @@
+2026-05-07 17:54:25,736 - tests.test_login_valid_invalid - INFO - ===== Test Started =====
+2026-05-07 17:54:25,740 - tests.test_login_valid_invalid - INFO - Test data -> Email: 7207962483, Password: Vijay@8500
+2026-05-07 17:54:25,742 - tests.test_login_valid_invalid - INFO - Opening URL
+2026-05-07 17:54:25,778 - tests.test_login_valid_invalid - INFO - Performing login action
+2026-05-07 17:54:35,196 - tests.test_login_valid_invalid - INFO - Fetching result text
+2026-05-07 17:54:35,259 - tests.test_login_valid_invalid - INFO - Result text received: Sign Out
+2026-05-07 17:54:35,259 - tests.test_login_valid_invalid - INFO - Validating login result
+2026-05-07 17:54:35,260 - tests.test_login_valid_invalid - INFO - Re-validating login result (second assertion)
+2026-05-07 17:54:35,291 - tests.test_login_valid_invalid - INFO - ===== Test Completed Successfully =====
+2026-05-07 17:54:39,539 - tests.test_login_valid_invalid - INFO - ===== Test Started =====
+2026-05-07 17:54:39,544 - tests.test_login_valid_invalid - INFO - Test data -> Email: 7207962483, Password: vijay8500
+2026-05-07 17:54:39,544 - tests.test_login_valid_invalid - INFO - Opening URL
+2026-05-07 17:54:39,940 - tests.test_login_valid_invalid - INFO - Performing login action
+2026-05-07 17:54:57,346 - tests.test_login_valid_invalid - INFO - Fetching result text
+2026-05-07 17:55:00,395 - tests.test_login_valid_invalid - INFO - Result text received: 
+2026-05-07 17:55:00,396 - tests.test_login_valid_invalid - INFO - Validating login result
+2026-05-07 17:55:05,732 - tests.test_login_valid_invalid - INFO - ===== Test Started =====
+2026-05-07 17:55:05,733 - tests.test_login_valid_invalid - INFO - Test data -> Email: 7207962483, Password: vijay8500
+2026-05-07 17:55:05,733 - tests.test_login_valid_invalid - INFO - Opening URL
+2026-05-07 17:55:05,739 - tests.test_login_valid_invalid - INFO - Performing login action
+2026-05-07 17:55:16,386 - tests.test_login_valid_invalid - INFO - Fetching result text
+2026-05-07 17:55:19,434 - tests.test_login_valid_invalid - INFO - Result text received: 
+2026-05-07 17:55:19,434 - tests.test_login_valid_invalid - INFO - Validating login result
+2026-05-07 17:55:24,576 - tests.test_login_valid_invalid - INFO - ===== Test Started =====
+2026-05-07 17:55:24,577 - tests.test_login_valid_invalid - INFO - Test data -> Email: 7207962483, Password: vijay8500
+2026-05-07 17:55:24,577 - tests.test_login_valid_invalid - INFO - Opening URL
+2026-05-07 17:55:24,629 - tests.test_login_valid_invalid - INFO - Performing login action
+2026-05-07 17:55:37,037 - tests.test_login_valid_invalid - INFO - Fetching result text
+2026-05-07 17:55:40,088 - tests.test_login_valid_invalid - INFO - Result text received: 
+2026-05-07 17:55:40,088 - tests.test_login_valid_invalid - INFO - Validating login result
