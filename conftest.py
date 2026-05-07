@@ -2,6 +2,9 @@
 
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+
 
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
@@ -88,8 +91,31 @@ def init_driver(request):
     yield driver
 
     print("Closing browser...")
-    driver.quit()
 
+CURRENT_URL = "https://www.amazon.in/"
+
+@pytest.fixture(scope="function")
+def init_driver():
+
+    options = Options()
+
+    # 🔥 required for Jenkins / headless execution
+    options.add_argument("--headless=new")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
+
+    # Selenium 4 way (NO webdriver-manager)
+    driver = webdriver.Chrome(options=options)
+
+    driver.implicitly_wait(10)
+    driver.get(CURRENT_URL)
+
+    yield driver
+
+
+    driver.quit()
 # import pytest
 # from playwright.sync_api import sync_playwright
 #
