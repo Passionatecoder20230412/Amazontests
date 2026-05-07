@@ -1,19 +1,93 @@
+# conftest.py
+
 import pytest
 from selenium import webdriver
 
-# CURRENT_URL = "https://www.amazon.in/"
-CURRENT_URL="https://automationexercise.com/"
+from selenium.webdriver.chrome.options import Options as ChromeOptions
+from selenium.webdriver.edge.options import Options as EdgeOptions
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
-@pytest.fixture(scope="function")  # default scope anyway
-def init_driver():
-    driver = webdriver.Edge()
-    driver.maximize_window()
-    driver.implicitly_wait(300)
-    driver.get(CURRENT_URL)
+
+def pytest_addoption(parser):
+
+    parser.addoption(
+        "--browser",
+        action="store",
+        default="chrome",
+        help="Browser name: chrome / edge / firefox"
+    )
+
+    parser.addoption(
+        "--url",
+        action="store",
+        default="https://www.amazon.in/",
+        help="Application URL"
+    )
+
+    parser.addoption(
+        "--headless",
+        action="store_true",
+        help="Run tests in headless mode"
+    )
+
+
+@pytest.fixture(scope="function")
+def init_driver(request):
+
+    browser = request.config.getoption("--browser").lower()
+    url = request.config.getoption("--url")
+    headless = request.config.getoption("--headless")
+
+    driver = None
+
+    # ---------- CHROME ---------- #
+
+    if browser == "chrome":
+
+        options = ChromeOptions()
+
+        if headless:
+            options.add_argument("--headless=new")
+
+        options.add_argument("--start-maximized")
+
+        driver = webdriver.Chrome(options=options)
+
+    # ---------- EDGE ---------- #
+
+    elif browser == "edge":
+
+        options = EdgeOptions()
+
+        if headless:
+            options.add_argument("--headless=new")
+
+        options.add_argument("--start-maximized")
+
+        driver = webdriver.Edge(options=options)
+
+    # ---------- FIREFOX ---------- #
+
+    elif browser == "firefox":
+
+        options = FirefoxOptions()
+
+        if headless:
+            options.add_argument("--headless")
+
+        driver = webdriver.Firefox(options=options)
+        driver.maximize_window()
+
+    else:
+        raise Exception(f"Unsupported browser: {browser}")
+
+    # Common setup
+    driver.implicitly_wait(10)
+    driver.get(url)
 
     yield driver
 
-    print("closing browser")
+    print("Closing browser...")
     driver.quit()
 
 # import pytest
