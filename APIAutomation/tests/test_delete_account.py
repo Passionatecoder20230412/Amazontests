@@ -8,8 +8,8 @@ message : account deleted!
 """
 class TestDeleteAccount:
     data={
-        "email":"radbjjkjvijay2456@gmail.com",
-        "password":"vijay80741",
+        "email":"Vijay850063@gmail.com",
+        "password":"vijay@8500",
     }
     def test_delete_account(self):
 

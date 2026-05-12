@@ -6,7 +6,7 @@ class UserData:
 
     create_account= {
         "name": "madhu",
-        "email":"msnpython@gmail.com",
+        "email":f"Vijay850063@gmail.com",
         "password": "vijay@8500",
         "title": "Mr",
         "birth_date": "16",          # ✅ fixed key
