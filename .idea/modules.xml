@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonUIApi.iml" filepath="$PROJECT_DIR$/.idea/PythonUIApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PythonProject/Vijay-playwright/.idea/Vijay-playwright.iml" filepath="$PROJECT_DIR$/../PythonProject/Vijay-playwright/.idea/Vijay-playwright.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../playwright_pract/.idea/playwright_pract.iml" filepath="$PROJECT_DIR$/../playwright_pract/.idea/playwright_pract.iml" />
     </modules>
   </component>
 </project>
